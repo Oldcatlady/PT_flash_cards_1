@@ -1,0 +1,184 @@
+[
+   {
+    "question": "Was ist das Ergebnis eines Vergleichs in Java?",
+    "answer": "Das Ergebnis eines Vergleichs in Java ist immer ein Wahrheitswert vom Datentyp boolean, also true oder false."
+  },
+  {
+    "question": "Wofür werden Vergleichsoperatoren typischerweise verwendet?",
+    "answer": "Vergleichsoperatoren werden typischerweise in Bedingungen verwendet, zum Beispiel in if-Anweisungen oder Schleifen wie while."
+  },
+   {
+    "question": "Erläutere die Funktionsweise der Mehrfachverzweigung if – else if – else unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "eigenschaften": [
+        "Mehrere Bedingungen werden der Reihe nach geprüft",
+        "Nur der erste zutreffende Bedingungsblock wird ausgeführt",
+        "Der else-Block dient als Standardfall, wenn keine Bedingung erfüllt ist",
+        "Diese Struktur wird verwendet, wenn mehrere logische Abhängigkeiten geprüft werden müssen"
+      ]
+    }
+  },
+  {
+    "question": "Beschreiben Sie die allgemeine Syntax der Mehrfachverzweigung switch – case in Java.",
+    "answer": {
+      "definition": "Die Mehrfachverzweigung switch – case wird verwendet, um den Wert einer Variablen mit mehreren festen Vergleichswerten abzugleichen. Sie eignet sich insbesondere für diskrete Wertebereiche.",
+      "beispiel": "switch (Variable) {\n    case Wert1:\n        Anweisung;\n        break;\n    case Wert2:\n        Anweisung;\n        break;\n    default:\n        Anweisung;\n}"
+    }
+  },
+  {
+    "question": "Erläutern Sie die Funktionsweise der Mehrfachverzweigung switch – case unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "eigenschaften": [
+        "Eine Variable wird mit definierten festen Werten (case) verglichen",
+        "Bei Übereinstimmung wird der entsprechende Block ausgeführt",
+        "break verhindert das Durchfallen in weitere Fälle",
+        "default wird ausgeführt, wenn keiner der angegebenen Fälle zutrifft",
+        "Wird genutzt, wenn eine Variable mehrere diskrete Zustände annehmen kann"
+      ]
+    }
+  },
+  {
+    "question": "Definieren Sie den Begriff „Mehrfachverzweigung“ in der Programmierung unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Eine Mehrfachverzweigung ist eine Kontrollstruktur, die den Programmablauf abhängig von mehreren möglichen Bedingungen oder Werten in unterschiedliche Ausführungspfade unterteilt.",
+      "eigenschaften": [
+        "Auswahl zwischen mehreren alternativen Programmzweigen",
+        "Abhängig von logischen Bedingungen oder Wertvergleichen",
+        "Dient der strukturierten Entscheidungslogik im Programmablauf"
+      ]
+    }
+  },
+  {
+    "question": "Erläutern Sie die Wrapper-Klasse Integer unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Die Wrapper-Klasse Integer kapselt den primitiven Datentyp int in einem Objekt.",
+      "eigenschaften": [
+        "Speichert ganze Zahlen als Objekt",
+        "Ermöglicht die Nutzung von Methoden der Klasse Integer",
+        "Wird häufig in Collections wie ArrayList<Integer> verwendet"
+      ],
+      "beispiel": "Integer zahl = 10;"
+    }
+  },
+  {
+    "question": "Erläutern Sie die Wrapper-Klasse Double unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Die Wrapper-Klasse Double kapselt den primitiven Datentyp double in einem Objekt.",
+      "eigenschaften": [
+        "Speichert Dezimalzahlen als Objekt",
+        "Unterstützt mathematische Hilfsmethoden",
+        "Wird für objektorientierte Verarbeitung von Gleitkommazahlen verwendet"
+      ],
+      "beispiel": "Double preis = 19.99;"
+    }
+  },
+  {
+    "question": "Erläutern Sie die Wrapper-Klasse Character unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Die Wrapper-Klasse Character kapselt den primitiven Datentyp char in einem Objekt.",
+      "eigenschaften": [
+        "Speichert einzelne Zeichen als Objekt",
+        "Bietet Methoden zur Zeichenanalyse",
+        "Wird zur Verarbeitung einzelner Zeichen verwendet"
+      ],
+      "beispiel": "Character buchstabe = 'A';"
+    }
+  },
+  {
+    "question": "Erläutern Sie die Wrapper-Klasse Boolean unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Die Wrapper-Klasse Boolean kapselt den primitiven Datentyp boolean in einem Objekt.",
+      "eigenschaften": [
+        "Speichert Wahrheitswerte als Objekt",
+        "Kann ausschließlich true oder false enthalten",
+        "Wird häufig für logische Auswertungen verwendet"
+      ],
+      "beispiel": "Boolean aktiv = true;"
+    }
+  },
+  {
+    "question": "Erklären Sie den Unterschied zwischen primitiven Datentypen und Wrapper-Klassen in Java.",
+    "answer": {
+      "definition": "Primitive Datentypen speichern einfache Werte direkt im Speicher, während Wrapper-Klassen diese Werte als Objekte darstellen.",
+      "eigenschaften_primitive": [
+        "Direkte Speicherung von Werten",
+        "Höhere Verarbeitungsgeschwindigkeit",
+        "Keine Methoden verfügbar"
+      ],
+      "eigenschaften_wrapper": [
+        "Speicherung als Objekt",
+        "Methoden und zusätzliche Funktionen verfügbar",
+        "Einsatz in objektorientierten Strukturen möglich"
+      ],
+      "beispiel": "int zahl1 = 5;\nInteger zahl2 = 5;"
+    }
+  },
+  {
+    "question": "Erklären Sie die while-Schleife (kopfgesteuerte Schleife) und geben Sie die Syntax an.",
+    "answer": {
+      "definition": "Die while-Schleife ist eine kopfgesteuerte Schleife. Die Bedingung wird vor jeder Ausführung geprüft. Der Schleifenrumpf wird nur ausgeführt, solange die Bedingung true ist.",
+      "beispiel": "while (Bedingung) {\n    Anweisung;\n}"
+    }
+  },
+  {
+    "question": "Erklären Sie die do-while-Schleife (fußgesteuerte Schleife) und geben Sie die Syntax an.",
+    "answer": {
+      "definition": "Die do-while-Schleife ist eine fußgesteuerte Schleife. Der Schleifenrumpf wird mindestens einmal ausgeführt, bevor die Bedingung geprüft wird.",
+      "beispiel": "do {\n    Anweisung;\n} while (Bedingung);"
+    }
+  },
+  {
+    "question": "Erklären Sie die for-Schleife und geben Sie die Syntax an.",
+    "answer": {
+      "definition": "Die for-Schleife ist eine kopfgesteuerte Schleife, die häufig für eine bekannte Anzahl an Durchläufen verwendet wird. Sie besteht aus Initialisierung, Bedingung und Iteration.",
+      "beispiel": "for (Initialisierung; Bedingung; Iteration) {\n    Anweisung;\n}"
+    }
+  },
+  {
+    "question": "Erklären Sie die for-each-Schleife und geben Sie die Syntax an.",
+    "answer": {
+      "definition": "Die for-each-Schleife dient zum Durchlaufen von Arrays oder Collections. Jedes Element wird automatisch nacheinander verarbeitet.",
+      "beispiel": "for (Datentyp element : array) {\n    Anweisung;\n}"
+    }
+  },
+  {
+    "question": "Geben Sie die allgemeine Syntax eines Arrays in Java an und erklären Sie diese fachsprachlich.",
+    "answer": {
+      "definition": "Ein Array ist eine Datenstruktur zur Speicherung mehrerer Werte desselben Datentyps. Die Größe ist nach der Erstellung fest.",
+      "syntax_deklaration": "Datentyp[] name = new Datentyp[Größe];",
+      "syntax_initialisierung": "Datentyp[] name = {Wert1, Wert2, Wert3};",
+      "eigenschaften": [
+        "Datentyp[] legt fest, welche Art von Daten gespeichert wird",
+        "name ist der Bezeichner des Arrays",
+        "new Datentyp[Größe] erstellt ein Array mit fester Anzahl an Elementen",
+        "Alternativ können Werte direkt beim Erstellen zugewiesen werden",
+        "Der Zugriff erfolgt über Indizes beginnend bei 0"
+      ]
+    }
+  },
+  {
+    "question": "Erklären Sie den Compiler unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Ein Compiler ist ein Übersetzungsprogramm, das den gesamten Quellcode vor der Programmausführung in Maschinencode oder Bytecode umwandelt. Der erzeugte Code kann anschließend unabhängig vom Compiler ausgeführt werden."
+    }
+  },
+  {
+    "question": "Erklären Sie den Interpreter unter Verwendung fachsprachlicher Begriffe.",
+    "answer": {
+      "definition": "Ein Interpreter ist ein Übersetzungsprogramm, das den Quellcode während der Laufzeit schrittweise analysiert und direkt ausführt. Dabei wird kein separater ausführbarer Programmcode erzeugt."
+    }
+  },
+  {
+    "question": "Wofür benutzt man switch-case?",
+    "answer": {
+      "definition": "switch-case wird verwendet, wenn eine Variable viele feste mögliche Werte haben kann.",
+      "beispiel": "switch (note) {\n  case 1:\n    System.out.println(\"Sehr gut\");\n    break;\n  case 2:\n    System.out.println(\"Gut\");\n    break;\n  default:\n    System.out.println(\"Andere Note\");\n}",
+      "eigenschaften": [
+        "switch (Variable) → Ausgangswert",
+        "case → möglicher Wert",
+        "break → stoppt den Code (sonst läuft alles weiter!)",
+        "default → wenn nichts passt"
+      ]
+    }
+  }
+]
