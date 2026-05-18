@@ -17,6 +17,11 @@ fetch("questions.json")
     });
 
 function formatAnswer(answer) {
+    // NEU: String direkt zurückgeben
+    if (typeof answer === "string") {
+        return answer;
+    }
+
     let text = "";
 
     if (answer.definition) {
