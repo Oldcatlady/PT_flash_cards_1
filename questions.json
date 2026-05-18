@@ -1,7 +1,7 @@
 [
    {
     "question": "Was ist das Ergebnis eines Vergleichs in Java?",
-    "answer": "Das Ergebnis eines Vergleichs in Java ist immer ein Wahrheitswert vom Datentyp boolean, also true oder false."
+    "answer": {"Das Ergebnis eines Vergleichs in Java ist immer ein Wahrheitswert vom Datentyp boolean, also true oder false."}
   },
   {
     "question": "Wofür werden Vergleichsoperatoren typischerweise verwendet?",
